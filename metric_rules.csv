@@ -1,35 +1,35 @@
-metric,title,aggregation,non_template,required_evidence
-1.1.1,Curricula developed and implemented,REVIEW,YES,PO PSO CO curriculum relevance evidence
-1.1.2,Number of programmes where syllabus revision was carried out,SUM_IF_NONOVERLAP,NO,Data template
-1.1.3,Number of courses having focus on employability entrepreneurship skill development,SUM_IF_NONOVERLAP,NO,Data template
-1.2.1,Number of new courses introduced,UNIQUE_COUNT,NO,Data template
-1.2.2,Number of programmes in which CBCS elective system implemented,UNIQUE_COUNT,NO,Data template
-1.3.1,Crosscutting issues integrated into curriculum,REVIEW,YES,Crosscutting issues curriculum evidence
-1.3.2,Value-added courses,UNIQUE_COUNT,NO,Data template
-1.3.3,Students enrolled in value-added courses,SUM_IF_NONOVERLAP,NO,Data template
-1.3.4,Students undertaking field projects research projects internships,SUM_IF_NONOVERLAP,NO,Data template
-2.1.1,Enrolment percentage,REVIEW_RATIO,NO,Data template
-2.1.2,Reserved category admissions,REVIEW,NO,Data template
-2.2.1,Learning levels and special programmes,REVIEW,YES,Advanced and slow learner assessment/programmes
-2.3.1,Student centric methods,REVIEW,YES,Experiential participative problem-solving evidence
-2.3.2,ICT enabled teaching learning,REVIEW,YES,ICT tools and online resources evidence
-2.3.3,Students to mentor ratio,REVIEW_RATIO,YES,Student mentor information
-2.4.1,Teachers against sanctioned posts,REVIEW_RATIO,NO,Data template
-2.4.2,Teachers with PhD,SUM_IF_NONOVERLAP,NO,Data template
-2.4.4,Teachers with NET SLET SET,SUM_IF_NONOVERLAP,NO,Data template
-2.5.1,Student grievance redressal,REVIEW,NO,Data template
-2.6.1,Learning outcomes,REVIEW,YES,Learning outcomes/graduate attributes evidence
-2.6.2,Attainment of POs PSOs COs,REVIEW,YES,PO PSO CO attainment evidence
-2.7.1,Student Satisfaction Survey,REVIEW,YES,SSS results/details web link
-3.4.6,Extension and outreach activities,UNIQUE_COUNT,NO,Data template
-3.6.3,Students participating in extension activities,SUM_IF_NONOVERLAP,NO,Data template
-4.1.1,Facilities for teaching learning,REVIEW,YES,Classrooms laboratories computing equipment evidence
-4.3.1,IT facilities,REVIEW,NO,Data template
-5.1.2,Capacity development schemes,REVIEW,NO,Data template
-5.2.1,Placement and higher education,SUM_IF_NONOVERLAP,NO,Data template
-5.2.2,Students qualifying competitive examinations,SUM_IF_NONOVERLAP,NO,Data template
-5.2.3,Students qualifying state national international examinations,SUM_IF_NONOVERLAP,NO,Data template
-5.3.1,Student representation and participation,REVIEW,NO,Data template
-6.3.4,Teachers undergoing professional development,SUM_IF_NONOVERLAP,NO,Data template
-6.5.2,Academic Administrative Audit,REVIEW,YES,Academic Administrative Audit and follow-up action
-6.5.3,Incremental improvements in quality,REVIEW,YES,Incremental improvements/quality initiatives
+metric,title,aggregation,non_template
+1.1.1,Curricula developed and implemented,REVIEW,YES
+1.1.2,Syllabus revision, SUM_IF_NONOVERLAP,NO
+1.1.3,Courses focused on employability entrepreneurship skill development,SUM_IF_NONOVERLAP,NO
+1.2.1,New courses introduced,UNIQUE_COUNT,NO
+1.2.2,CBCS elective system,UNIQUE_COUNT,NO
+1.3.1,Crosscutting issues integrated into curriculum,REVIEW,YES
+1.3.2,Value-added courses,UNIQUE_COUNT,NO
+1.3.3,Students enrolled in value-added courses,SUM_IF_NONOVERLAP,NO
+1.3.4,Field projects research projects internships,SUM_IF_NONOVERLAP,NO
+2.1.1,Enrolment percentage,REVIEW_RATIO,NO
+2.1.2,Reserved category admissions,REVIEW,NO
+2.2.1,Learning levels and special programmes,REVIEW,YES
+2.3.1,Student centric methods,REVIEW,YES
+2.3.2,ICT enabled teaching learning,REVIEW,YES
+2.3.3,Students to mentor ratio,REVIEW_RATIO,YES
+2.4.1,Teachers against sanctioned posts,REVIEW_RATIO,NO
+2.4.2,Teachers with PhD,SUM_IF_NONOVERLAP,NO
+2.4.4,Teachers with NET SLET SET,SUM_IF_NONOVERLAP,NO
+2.5.1,Student grievance redressal,REVIEW,NO
+2.6.1,Learning outcomes,REVIEW,YES
+2.6.2,Attainment of POs PSOs COs,REVIEW,YES
+2.7.1,Student Satisfaction Survey,REVIEW,YES
+3.4.6,Extension and outreach activities,UNIQUE_COUNT,NO
+3.6.3,Students participating in extension activities,SUM_IF_NONOVERLAP,NO
+4.1.1,Facilities for teaching learning,REVIEW,YES
+4.3.1,IT facilities,REVIEW,NO
+5.1.2,Capacity development schemes,REVIEW,NO
+5.2.1,Placement and higher education,SUM_IF_NONOVERLAP,NO
+5.2.2,Students qualifying competitive examinations,SUM_IF_NONOVERLAP,NO
+5.2.3,Students qualifying examinations,SUM_IF_NONOVERLAP,NO
+5.3.1,Student representation and participation,REVIEW,NO
+6.3.4,Teachers undergoing professional development,SUM_IF_NONOVERLAP,NO
+6.5.2,Academic Administrative Audit,REVIEW,YES
+6.5.3,Incremental improvements in quality,REVIEW,YES

@@ -1,31 +1,33 @@
-AQAR OneDrive Consolidator v3.2
+# GEU AQAR Consolidator — Streamlit v1
 
-Purpose
--------
-Consolidate departmental AQAR submissions from a local OneDrive/SharePoint-synced folder while keeping:
-1. Data-template information
-2. Information explicitly required outside the Data Template
-3. Supporting-document/evidence traceability
-4. Department/criterion/metric hierarchy
-5. Duplicate/conflict/missing-evidence review
+This converts the working AQAR scanner into a browser UI.
 
-v3.2 specifically incorporates the supplied "Information-not-in-Data-template" document.
+## Local use — recommended for the 7 GB OneDrive repository
 
-Non-template metrics:
-1.1.1, 1.3.1, 2.2.1, 2.3.1, 2.3.2, 2.3.3,
-2.6.1, 2.6.2, 2.7.1, 4.1.1, 6.5.2, 6.5.3.
+```bash
+python3 -m pip install -r requirements.txt
+streamlit run app.py
+```
 
-Usage on macOS/Ubuntu:
-  chmod +x run.sh
-  ./run.sh
+Then enter the local OneDrive AQAR root, e.g.
 
-Select the AQAR ROOT folder (not an individual department) in the GUI.
-The program automatically identifies first-level department folders and treats
-Criteria-* folders as criterion folders, not departments.
+`/Users/yourname/OneDrive/AQAR`
 
-The program excludes output/, .git/, __pycache__, temporary Excel files and
-its own generated workbook.
+The files remain on the local computer. They are not uploaded by the app in Local mode.
 
-IMPORTANT:
-This is an IQAC consolidation/review tool. It proposes mappings and flags items
-for verification. It does not silently declare an AQAR value final.
+## ZIP mode
+
+Useful for small departmental tests such as HSS. Do not upload the 7 GB repository to a hosted Streamlit server.
+
+## Important
+
+The app distinguishes:
+- department folders
+- Criteria-* folders
+- Data Template information
+- Information Not in Data Template
+
+The non-template requirements are built from the supplied departmental requirements document:
+1.1.1, 1.3.1, 2.2.1, 2.3.1, 2.3.2, 2.3.3, 2.6.1, 2.6.2, 2.7.1, 4.1.1, 6.5.2, 6.5.3.
+
+All proposed institutional values remain `PENDING IQAC APPROVAL`.
